@@ -1,7 +1,10 @@
-load("CArray.js");
+load("mergeSortCArray.js");
 load("bubbleSort.js");
 load("selectionSort.js");
 load("insertionSort.js");
+load("shellsort.js");
+load("shellsort1.js");
+load("mergeSort.js");
 var numElements = 100;
 var nums = new CArray(numElements);
 nums.setData();
